@@ -1,0 +1,10 @@
+//* if we want to format output files, we can use INREC and OUTPUT *//
+
+SORT FIELDS=COPY
+INREC FIELDS=(5:1,5,10:21,5)
+
+SORT FIELDS=COPY
+OUTREC FIELDS=(5:1,5,10:21,5)
+
+//* both INREC and OUTREC are same. INREC doing all these formatting before sort and OUTREC is doing after sort. If we have many records, use INREC. It
+performs better. *//
