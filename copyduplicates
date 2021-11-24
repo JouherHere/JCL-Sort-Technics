@@ -1,6 +1,6 @@
 //* if we wanna remove duplicates from main output file and save duplicates to another file. we can use this technique *//
 
-SORT FIELDS = COPY
-SUME FIELDS = NONE, XSUM 
+SORT FIELDS=COPY
+SUME FIELDS=NONE, XSUM 
 
 //* should add another output file ' //SORTXSUM DD DSN = ....... ' *//
