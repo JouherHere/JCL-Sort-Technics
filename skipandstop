@@ -1,6 +1,6 @@
 *// skip and stop *//
 
-SORT FIELDS=(1,5,CH,D)
+SORT FIELDS=(1,5,CH,D),
 SKIPREC=10, STOPAFT=5
 
 *// in SORT FIELDS, you can give any condition asd per your requirement. Or simply you can give COPY. Here first 10 records will get skipped and copying
