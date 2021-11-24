@@ -1,0 +1,4 @@
+//* if we only wanna write records based on a condition in output *//
+
+SORT FIELDS = COPY
+INCLUDE COND = (1,5,CH,EQ,C'VIJAY')
