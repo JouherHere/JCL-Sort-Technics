@@ -1,0 +1,5 @@
+//* if we wanna split file based on condition *//
+
+SORT FIELDS=COPY
+OUTFIL FILES=1,INCLUDE=(1,5,CH,EQ,C'VIJAY')
+OUTFIL FILES=2,INCLUDE=(1,5,CH,EQ,C'RAGHU')
