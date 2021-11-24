@@ -1,4 +1,4 @@
 //* remove duplicates from input using sort utility *//
 
-SORT FIELDS = COPY
-SUM FIELDS = NONE
+SORT FIELDS=COPY
+SUM FIELDS=NONE
