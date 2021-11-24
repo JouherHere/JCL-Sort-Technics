@@ -1,0 +1,7 @@
+//* If we want to simply copy the records from input to output and also wants to sort based on a filed. We can use this technique *//
+
+
+SORT FIELDS = (1,5,CH,A)
+
+//* here, the records will get copied from input to output and also it will get sorted based on the character field which starts at postion 1, which's 
+length is 5, in ascending order. *//
