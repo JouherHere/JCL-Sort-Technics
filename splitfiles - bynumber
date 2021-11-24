@@ -1,0 +1,5 @@
+//* if we wanna split file based on number of records *//
+
+SORT FIELDS=COPY
+OUTFIL FILES=1,ENDREC=10
+OUTFIL FILES=2,STARTREC=11,ENDREC=20
