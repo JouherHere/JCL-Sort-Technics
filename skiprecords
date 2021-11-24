@@ -1,6 +1,6 @@
 //* skip records *//
 
-SORT FIELDS = COPY,
-SKIPREC = 10
+SORT FIELDS=COPY,
+SKIPREC=10
 
 //* first 10 records will not be there in output *//
