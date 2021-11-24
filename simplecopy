@@ -1,0 +1,15 @@
+//* If we want to simply copy the records from input to output. We can use this technique *//
+
+// JOB CARD                                        
+//*                                                
+//STEP01  EXEC PGM=SORT                            
+//SYSPRINT DD  SYSOUT=*                            
+//SYSOUT   DD  SYSOUT=*                            
+//SORTIN   DD  DSN=INPUT.FILE ...,DISP=SHR         
+//SORTOUT  DD  DSN=OUTPUT.FILE ...,                
+//             DISP=(NEW,CATLG,DELETE),            
+//             .......................,          
+//             ....................                     
+//SYSIN    DD  *                                   
+ SORT FIELDS=COPY                                  
+/*
