@@ -1,0 +1,4 @@
+//* opposite of 'include'. it not gonna write the records which satisfy the given condition *//
+
+SORT FIELDS=COPY
+OMIT COND=(1,5,CH,EQ,C'VIJAY')
