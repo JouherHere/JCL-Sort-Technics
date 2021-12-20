@@ -1,4 +1,4 @@
-//* if we want to format output files, we can use INREC and OUTPUT *//
+//* if we want to format output files, we can use INREC and OUTREC *//
 
 SORT FIELDS=COPY
 INREC FIELDS=(5:1,5,10:21,5)
